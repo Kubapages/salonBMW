@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+*{
+background-color:#DCDCDC;
+
+}
+
+h1{
+background-color:#E0FFFF;
+color: #483D8B;
+border-style:ridge;
+text-align:center;
+}
+
+input[type=submit]{
+background-color: #90EE90;
+border: 4px solid rgb(0, 0, 0);
+color: black;
+padding: 16px 32px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;
+}
+
+input[type=reset]{
+background-color: #DC143C;
+border: 4px solid rgb(0, 0, 0);
+color: #ffffff;
+padding: 16px 32px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;
+}
+
+h2{
+border: 5px #5F9BD1 solid;
+border-radius: 20px;
+    color:#483D8B;
+    text-align:center;
+    font-weight:bold;
+    font-family:Arial;
+}
+
+</style>
+</head>
+<body>
+    <p></p>
+    <h1>Salon samochodów - BMW</h1>
+<div id="ankieta" style="">
+<form action="mailto:wsip@wsip.pl?subject=Temat Ankiety" method="post">
+<img style="float:right; margin:150px;border-radius:20px;border: 5px #5F9BD1 solid;" src="autobmw.jpg">
+<p><strong>Imię</strong>: <input type="text" name="Imie" size="30" maxlength="40" style="position: absolute; left:150px; background-color:#99FFCC;
+font-style: italic; color: #000000;" required> </p>
+<p><strong>Nazwisko</strong>: <input type="text" name="nazwisko" size="30" maxlength="40" style="position: absolute; left:150px; background-color:#99FFCC;
+    font-style: italic; color: #000000;" required> </p>
+	<h3>Płeć:</h3>
+    <p><input type="radio" name="plec" value="kobieta"> Kobieta</p>
+<p><input type="radio" name="plec" value="mezczyzna"> Mężczyzna</p>
+<p><strong>Klasa samochodu</strong>:  <select style="position: absolute; left:150px; background-color:#99FFCC;
+    font-style: italic; color: #000000;">
+    <option value="1">BMW seria 1</option>
+    <option value="2">BMW seria 2</option>
+    <option value="3">BMW seria 3</option>
+    <option value="4">BMW seria 4</option>
+    <option value="5">BMW seria 5</option>
+    <option value="6">BMW seria 6</option>
+    <option value="8">BMW seria 8</option>
+    <option value="x">BMW seria X</option>
+	<option value="m">BMW seria M</option>
+	<option value="z">BMW seria Z</option>
+	<option value="i">BMWi (elektryczne)</option>
+	</select></p>
+
+<p><strong>Budżet</strong>:  <select style="position: absolute; left:150px; background-color:#99FFCC;
+    font-style: italic; color: #000000;">
+    <option value="30">do 30tyś. zł</option>
+    <option value="50">do 50tyś. zł</option>
+    <option value="100">do 100tyś. zł</option>
+    <option value="200">do 200tyś. zł</option>
+    <option value="500">do 500tyś. zł</option>
+    <option value="indywidualna">Wycena indywidualna</option>
+        
+
+    </select></p>
+    <h3>Wyposażenie:</h3>
+    <p><input type="checkbox" name="jezyk" value="HTML">Niestandardowy kolor</p>
+<p><input type="checkbox" name="jezyk" value="CSS">Niestandardowe felgi</p>
+<p><input type="checkbox" name="jezyk" value="CMS">Skórzana tapicerka</p>
+<p><input type="checkbox" name="jezyk" value="SQL">Pakiet areodynamiczny</p>
+<p><input type="checkbox" name="jezyk" value="JavaScript">Czujniki parkowania</p>
+<p><input type="checkbox" name="jezyk" value="Python">Asystent parkowania</p>
+<p><input type="checkbox" name="jezyk" value="C++">Xenonowe lampy</p>
+<p><input type="checkbox" name="jezyk" value="PHP">Nawigacja</p>
+
+
+    <p><input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        </p>
+</div>
+
+<div id="foto">
+
+</div>
+        <h2>Najbliższy salon BMW:</p>
+            <a href="https://lodz.premiumarena.pl/?utm_source=googlemaps&utm_medium=organic">Łódź<br><a/>
+            <a href="https://www.bmw-frankcars.pl/">Częstochowa<br></a>
+
+        </h2>
+</form>
+</body>
+</html>
